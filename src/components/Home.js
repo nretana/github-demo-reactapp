@@ -5,7 +5,7 @@ const Home = ()=> {
     return(
         <div className='container'>
             <h1 className='fw-bold'>Your Flexible Smart Dashboard</h1>
-            <p>An easy dashboard to manage your financial activities easily. Save time!</p>
+            <p>Take your next step in your finance activities very easily. Save your time!</p>
             <button>Explore More</button>
        </div>
     )
