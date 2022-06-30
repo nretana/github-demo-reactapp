@@ -1,0 +1,16 @@
+.App {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(186, 56, 136);
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 0.25rem 0.25rem;
+    padding: 0.5rem 1rem;
+    border-style: none;
+
+    &:hover, &:active, &:focus {
+        background-color: rgb(169, 34, 117);
+    }
+}
