@@ -3,10 +3,12 @@ import styles from './Home.module.scss';
 
 const Home = ()=> {
     return(
-        <div className='container'>
-            <h1 className='fw-bold'>Your Flexible Smart Dashboard</h1>
-            <p>Take your next step with your finance actiuities very easily, so it can save your time.</p>
-            <button>Explore More</button>
+        <div className={`container ${styles['home-container']}`}>
+            <div className='row justify-content-center align-content-center h-100'>
+                <h1 className='fw-bold'>Your Flexible Smart Dashboard</h1>
+                <p>Take your next step with your finance activities easily, Save your time!</p>
+                <button className='w-auto'>Explore More</button>
+            </div>
        </div>
     )
 }
