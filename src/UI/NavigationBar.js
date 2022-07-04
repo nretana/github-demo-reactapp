@@ -8,10 +8,10 @@ const NavigationBar = () => {
             <Container>
                 <Navbar.Brand href="#home">Navbar</Navbar.Brand>
                 <Nav className="ms-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Product</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
-                    <Nav.Link href="#pricing">About Us</Nav.Link>
+                    <Nav.Link href="#home" className={styles['nav-link']}>Home</Nav.Link>
+                    <Nav.Link href="#features" className={styles['nav-link']}>Product</Nav.Link>
+                    <Nav.Link href="#pricing" className={styles['nav-link']}>Pricing</Nav.Link>
+                    <Nav.Link href="#pricing" className={styles['nav-link']}>About Us</Nav.Link>
                 </Nav>
             </Container>
       </Navbar>
