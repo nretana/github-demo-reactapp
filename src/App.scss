@@ -9,8 +9,8 @@ button {
     border-radius: 0.25rem 0.25rem;
     padding: 0.5rem 1rem;
     border-style: none;
-}
 
-button:hover {
-    background-color: rgb(200, 74, 152);
+    &:hover, &:active, &:focus {
+        background-color: rgb(169, 34, 117);
+    }
 }
